@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Mole from './Mole';
+import EmptySlot from './EmptySlot';
 
 function MoleContainer (props) {
   let [theMole, setMole] = useState(false);
